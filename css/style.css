@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Happy";
+    src: url(../fonts/TypeMates\ -\ CeraRoundPro-Regular.otf);
+}
+@font-face {
+    font-family: "HBold";
+    src: url(../fonts/TypeMates\ -\ CeraRoundPro-Bold.otf);
+}
+
+body{
+    background-color: white;
+    font-family: "Happy";
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.info{
+
+}
+.image{
+    width: 300px;
+    height: 170px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.happy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #000;
+    border-radius: 8px;
+    margin: 10px 10px;
+    width: 300px;
+    overflow: hidden;
+}
+.block-bottom{
+   padding: 0 10px 10px 10px; 
+}
+h2{
+    color: #00AEFF;
+    font-size: 26px;
+    font-family: "HBold";
+}
+.star{
+    display: flex;
+    margin-top: -10px;
+}
+.star img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+.pricing span{
+    font-weight: 700;
+}
+@media (max-width:756px){
+    .container{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}
